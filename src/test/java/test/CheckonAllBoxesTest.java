@@ -17,7 +17,11 @@ public class CheckonAllBoxesTest {
 		
 		CheckonAllBoxesPage checkonAllBoxesPage = PageFactory.initElements(driver, CheckonAllBoxesPage.class);
 		checkonAllBoxesPage.clickonToggleAll();
-		checkonAllBoxesPage.clickremoveFieldButton();
+		checkonAllBoxesPage.addCategory();
+		checkonAllBoxesPage.submitButton();
+		checkonAllBoxesPage.categorySelection();
+		
+		
 		
 		
 		

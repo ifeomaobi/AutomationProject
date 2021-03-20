@@ -17,6 +17,7 @@ public class CheckonSingleBoxTest {
 		
 		CheckonSingleBoxPage checkonSingleBoxPage = PageFactory.initElements(driver, CheckonSingleBoxPage.class);
 		checkonSingleBoxPage.clickonSingleBox();
+		checkonSingleBoxPage.removetheButtonfield();
 		
 		BrowserFactory.tearDown();
 		
